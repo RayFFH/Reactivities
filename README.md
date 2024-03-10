@@ -29,19 +29,18 @@
 <br />
 <div align="center">
 
-<h3 align="center">Kanji Learner</h3>
+<h3 align="center">Event Hosting Website</h3>
 
   <p align="center">
-    Kanji App which generates japanese text based off the kanji the user recognizes
+    App that allows users to join/host events, leave comments and follow other users
     <br />
-    <a href="https://github.com/RayFFH/KanjiWebsite/blob/main/readme.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/RayFFH/Reactivities/blob/main/readme.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://kanji-dictionary.onrender.com/">View Demo</a>
     ·
-    <a href="https://github.com/RayFFH/KanjiWebsite/issues">Report Bug</a>
+    <a href=https://github.com/RayFFH/Reactivities/issues">Report Bug</a>
     ·
-    <a href="https://github.com/RayFFH/KanjiWebsite/issues">Request Feature</a>
+    <a href="https://github.com/RayFFH/Reactivities/issues">Request Feature</a>
   </p>
 </div>
 
@@ -78,17 +77,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="webimage.png" alt="drawing" width="800"/>
+![423423a](https://github.com/RayFFH/Reactivities/assets/57190209/74d7f922-f19a-4fa7-ba3a-a57e0f8a01b1)
+
 <br></br>
 
-There are many learning apps online however most of these apps are focued on a spaced repetition system. I want users to learn through actually engaging with japanese content.
-Therefore I made this app that tracks the user's known kanji and extracts text containing 
-kanji that the user recognizes
+
+
+An Event hosting app that makes setting up events and tracking attendees easy and simple
 
 Here's how it works:
 * User creates an account and logs in
-* Randon kanji are generated and user clicks on whether he recognizes the kanji or not
-* Japanese text is then extracted online containing kanji that the user recognizes.
+* Can either create or join an event
+* Can comment and message others about events going on within the app
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -97,13 +97,11 @@ Here's how it works:
 
 ### Built With
 
-* ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+* [![React][React.js]][React-url]
 * [![JQuery][JQuery.com]][JQuery-url]
-* ![HTML Logo](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
-* ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-* ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-* ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-* ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+* ![C](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+* ![ASAP](https://img.shields.io/badge/ASP.NET--blACK?style=for-the-badge)
+* ![v](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 * ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 
@@ -111,22 +109,7 @@ Here's how it works:
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-To get started all you need to do is click on the link below and create an account and start using the app.
-All you date will be saved on an Azure SQL database
-https://kanjilearner.azurewebsites.net
-
-If you want to run the code on your own machine make to sure to download the latest verions of node.js and flask
-* npm
-  ```sh
-  npm install npm@latest -g
-  ``
-
-### Prerequisites
-This app is targeted towards people who already have knowledge of kanji and you'll get the most benefit 
-if you already know around 200 kanji
 
 ### Installation
 
@@ -137,6 +120,10 @@ if you already know around 200 kanji
 2. Install NPM packages
    ```sh
    npm install
+   ```
+3. Run the client app
+   ```sh
+   npm start
    ```
 
 
@@ -152,16 +139,15 @@ if you already know around 200 kanji
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Hosted and deployed on azure
-- [x] Connected to azure SQL databse
-- [x] Allows users to login and sign up
-- [x] Randomizes kanji
-- [x] Allows users to recognise kanji
-- [x] Extracts Text containing user's recognised kanji
-- [x] Highlight kanji that is known on extracted text
-- [ ] Use jissho API for dictionary function
-- [ ] Read allowed Kanji for visually impaired users
-- [ ] Increase loading speeds on azure website
+- [x] Add API skeleton
+- [x] Add client side skeleton
+- [x] Add Event hosting
+- [x] Allow user creation
+- [x] Enable Commeting
+- [x] Enable Following
+- [ ] Enable page filtering and sorting
+- [ ] Add styling with scss
+  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -194,11 +180,7 @@ Linkedin - https://www.linkedin.com/in/phoenixsmart/
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-List of websites i took inspiration from
-* Wanikani
-* Anki
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
