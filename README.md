@@ -114,7 +114,7 @@ Here's how it works:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/RayFFH/KanjiWebsite.git
+   git clone https://github.com/RayFFH/Reactivities.git
    ```
 2. Install NPM packages
    ```sh
