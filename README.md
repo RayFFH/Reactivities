@@ -128,9 +128,6 @@ Here's how it works:
 
 
 
-<!-- USAGE EXAMPLES -->
-
-
 
 
 <!-- ROADMAP -->
